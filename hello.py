@@ -1,10 +1,15 @@
-def greet(name):
-    """This function greets the person passed in as a parameter"""
-    print("Hello, " + name + "!")
+def calculate_sum(a, b):
+    """
+    Calculate the sum of two numbers
 
-def main():
-    name = input("Enter your name: ")
-    greet(name)
+    Args:
+        a (int): The first number
+        b (int): The second number
 
-if __name__ == "__main__":
-    main()
+    Returns:
+        int: The sum of the two numbers
+    """
+    return a + b
+
+print(calculate_sum(2, 3))
+
