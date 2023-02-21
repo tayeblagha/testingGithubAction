@@ -1,2 +1,2 @@
-# testingGithubAction
-github action ci/cd
+# testing GitHub action
+GitHub action ci/cd
